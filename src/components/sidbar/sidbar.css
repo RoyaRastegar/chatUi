@@ -1,0 +1,26 @@
+.sidbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 70px;
+  height: 500px;
+  background-color: #5e49ec;
+  border-radius: 0 50px 50px 0;
+  color: aliceblue;
+  align-items: center;
+  font-size: x-large;
+  position: fixed;
+  top: 0;
+  left: 1px;
+}
+.border {
+  border-left: red;
+  border-left: 5px solid red;
+  text-align: center;
+  width: -webkit-fill-available;
+}
+.noborder {
+  border-left: 5px solid transparent;
+  text-align: center;
+  width: -webkit-fill-available;
+}
