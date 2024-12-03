@@ -1,0 +1,25 @@
+.groupcart {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.groupname {
+  font-size: small;
+  width: 80%;
+  padding-left: 10px;
+  height: 30px;
+  font-weight: 500;
+  align-content: center;
+}
+.grouplength {
+  width: 20%;
+  align-items: center;
+  text-align: -webkit-right;
+  padding-right: 20px;
+}
+.lenmember {
+  border-radius: 50%;
+  font-size: smaller;
+  border: transparent;
+  background-color: #f8f8ff;
+}

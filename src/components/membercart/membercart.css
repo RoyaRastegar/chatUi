@@ -1,0 +1,17 @@
+.img {
+  border-radius: 50px;
+}
+
+.cart {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 20px;
+  padding-top: 5px;
+  gap: 5px;
+  padding-bottom: 10px;
+}
+.userinfo {
+  font-size: small;
+  font-weight: 500;
+}
