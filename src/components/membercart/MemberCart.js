@@ -1,7 +1,10 @@
 import './membercart.css';
-const MemberCart = ({ user }) => {
+const MemberCart = ({ user, getUser }) => {
+  function userSelected() {
+    return getUser(user);
+  }
   return (
-    <div className='cart'>
+    <div onClick={userSelected} className='cart'>
       <div>
         <img
           className='img'

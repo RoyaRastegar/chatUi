@@ -2,10 +2,20 @@ import './members.css';
 import { useEffect, useState } from 'react';
 import MemberCart from '../membercart/MemberCart';
 import { IoMdSearch } from 'react-icons/io';
+import Meet from '../meet/Meet';
 const Members = () => {
   const [searchInput, setSearchInput] = useState('');
   const [memberData, setMembarData] = useState([]);
   const [searchResult, setSearchResult] = useState('');
+  const [userSelected, setUserSelected] = useState({
+    username: '',
+    id: '',
+    address: '',
+    email: '',
+    phone: '',
+    position: '',
+    profileImage: '',
+  });
 
   const searchItems = (name) => {
     if (!name.trim()) {
@@ -21,6 +31,10 @@ const Members = () => {
     const value = e.target.value;
     setSearchInput(value);
     searchItems(value);
+  };
+  const getUserId = (user) => {
+    const userId = memberData.filter((item) => item.id === user.id);
+    return setUserSelected(userId[0]);
   };
   useEffect(() => {
     fetch('/members.json')
@@ -40,21 +54,29 @@ const Members = () => {
         />
         <IoMdSearch className='searchicon' />
       </div>
-
       <div className='body'>
         {(searchResult.length > 0 ? searchResult : memberData).map((user) => (
-          <MemberCart key={user.id} user={user} />
+          <MemberCart key={user.id} user={user} getUser={getUserId} />
         ))}
       </div>
-
       <div className='buttons'>
         <div>
-          <button className='meetbutton'>Meeting</button>
+          <button
+            onClick={() => {
+              if (!userSelected) {
+                alert('choose one person for chating');
+              }
+            }}
+            className='meetbutton'
+          >
+            Meeting
+          </button>
         </div>
         <div>
           <button className='schedulebutton'>Schedule</button>
         </div>
       </div>
+      <Meet user={userSelected} />
     </div>
   );
 };

@@ -1,0 +1,155 @@
+.chat {
+  width: 1000px;
+  height: 600px;
+  position: fixed;
+  top: 80px;
+  left: 400px;
+  box-shadow: 2px 2px 10px #888888;
+  display: flex;
+  border-radius: 10px 10px 10px 10px;
+}
+.left {
+  flex: 70%;
+}
+.right {
+  flex: 20%;
+  box-shadow: 2px 2px 10px #888888;
+  display: flex;
+  flex-direction: column;
+}
+.chatimg {
+  width: 250px;
+  height: 200px;
+  border-radius: 10px 10px 10px 10px;
+  /* position: fixed;
+  top: 80px; */
+}
+.rightUp {
+  flex: 5;
+}
+.rightdown {
+  flex: 6;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+.info span {
+  font-size: smaller;
+}
+.iconchat {
+  padding-top: 10px;
+  height: 30px;
+}
+.icontop {
+  height: 30px;
+  padding-top: 15px;
+}
+.icontop span {
+  padding: 5px;
+  border: 1px solid rgb(193 193 193);
+  border-radius: 50%;
+  margin-right: 5px;
+  color: darkgrey;
+}
+
+.iconchat span {
+  padding: 10px;
+  border: 1px solid rgb(193 193 193);
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.one {
+  background-color: #8a2be2;
+  color: white;
+}
+.two {
+  background-color: red;
+  color: white;
+}
+.infouser {
+  width: 20%;
+  height: 18%;
+  background-color: #ffffff;
+  position: absolute;
+  top: 160px;
+  right: 25px;
+  border-radius: 10px 10px 0 0;
+  text-align: center;
+}
+.imgcountainer {
+  position: relative;
+}
+.userInformation {
+  background-color: #ffffff;
+  border-top: 1px solid rgb(193 193 193);
+  border-bottom: 1px solid rgb(193 193 193);
+  padding-left: 5px;
+}
+.phone {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5px;
+}
+.user {
+  padding-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.email {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.usergroup {
+  background-color: #ffffff;
+  border-bottom: 1px solid rgb(193 193 193);
+  padding-left: 5px;
+  height: 100px;
+}
+.usermadia {
+  background-color: #ffffff;
+  padding-left: 5px;
+}
+.up {
+  border-bottom: 1px solid rgb(193 193 193);
+  width: 750px;
+  display: flex;
+  justify-content: space-between;
+}
+.userinfo {
+  font-size: small;
+  font-weight: 500;
+}
+
+.typemessage {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgb(193 193 193);
+  width: 750px;
+  position: fixed;
+  bottom: 50px;
+  height: 55px;
+}
+.typemessage input:focus {
+  outline: none;
+}
+.icons {
+  display: flex; /* برای چینش آیتم‌ها به صورت افقی */
+  align-items: center; /* برای ترازبندی عمودی آیتم‌ها */
+  gap: 8px; /* فاصله بین آیتم‌ها */
+  padding: 10px;
+}
+.item {
+  display: flex; /* برای ترازبندی محتواهای داخلی */
+  justify-content: center;
+  align-items: center;
+  width: 32px; /* عرض برای هر آیکن */
+  height: 32px; /* ارتفاع برای هر آیکن */
+  background-color: transparent; /* پس‌زمینه اولیه */
+  border-radius: 50%; /* برای آیکن‌های دایره‌ای */
+}

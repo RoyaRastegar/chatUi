@@ -1,0 +1,863 @@
+[
+  {
+    "id": 1,
+    "fromUser": 4,
+    "toUser": 5,
+    "message": "Lorem Ipsum 1 (From Michael) is simply dummy text of the printing and typesetting industry.",
+    "image": null,
+    "timestamp": 1707719080
+  },
+  {
+    "id": 2,
+    "fromUser": 1,
+    "toUser": 5,
+    "message": "Lorem Ipsum 2 (To Jonathan) is simply dummy text of the printing and typesetting industry.",
+    "image": "https://picsum.photos/id/5/500/500",
+    "timestamp": 1707719080000
+  },
+  {
+    "id": 3,
+    "fromUser": 3,
+    "toUser": 5,
+    "message": "Lorem Ipsum 3 (From Kevin) is simply dummy text of the printing and typesetting industry.",
+    "timestamp": 1707719080000
+  },
+  {
+    "id": 4,
+    "fromUser": 5,
+    "toUser": 1,
+    "message": "Lorem Ipsum 4 (From Jonathan) is simply dummy text of the printing and typesetting industry.",
+    "timestamp": 1707719260000
+  },
+  {
+    "id": 5,
+    "fromUser": 5,
+    "toUser": 3,
+    "message": "Lorem Ipsum 5 (To Kevin) is simply dummy text of the printing and typesetting industry.",
+    "image": "https://picsum.photos/id/8/500/500",
+    "timestamp": 1707719260000
+  },
+  {
+    "id": 6,
+    "fromUser": 5,
+    "toUser": 2,
+    "message": "Lorem Ipsum 6 (To Elizabeth) is simply dummy text of the printing and typesetting industry.",
+    "timestamp": 1707719080000
+  },
+  {
+    "id": 7,
+    "fromUser": 1,
+    "toUser": 5,
+    "message": "Lorem Ipsum 7 (To Jonathan) is simply dummy text of the printing and typesetting industry.",
+    "image": "https://picsum.photos/id/9/500/500",
+    "timestamp": 1707719280000
+  },
+  {
+    "id": 8,
+    "fromUser": 5,
+    "toUser": 1,
+    "message": "hi",
+    "image": null,
+    "timestamp": 1730988524973
+  },
+  {
+    "id": 9,
+    "fromUser": 5,
+    "toUser": 1,
+    "message": "this is a test message",
+    "image": null,
+    "timestamp": 1730988565163
+  },
+  {
+    "id": 10,
+    "fromUser": 5,
+    "toUser": 4,
+    "message": "this is a test message",
+    "image": null,
+    "timestamp": 1730988589501
+  },
+  {
+    "id": 11,
+    "fromUser": 5,
+    "toUser": 1,
+    "message": "testing",
+    "image": null,
+    "timestamp": 1730989488472
+  },
+  {
+    "id": 12,
+    "fromUser": 5,
+    "toUser": 1,
+    "message": "testing scroll",
+    "image": null,
+    "timestamp": 1730989782634
+  },
+  {
+    "id": 13,
+    "fromUser": 5,
+    "toUser": 1,
+    "message": "hello, testing messages, works good, 1234567",
+    "image": null,
+    "timestamp": 1730989834550
+  },
+  {
+    "id": 14,
+    "fromUser": 5,
+    "toUser": 1,
+    "message": "hi",
+    "image": null,
+    "timestamp": 1731023283099
+  },
+  {
+    "id": 15,
+    "fromUser": 5,
+    "toUser": 1,
+    "message": "this is my presentation",
+    "image": null,
+    "timestamp": 1731025539003
+  },
+  {
+    "id": 16,
+    "fromUser": 5,
+    "toUser": 1,
+    "message": "hello, welcome to my presentation",
+    "image": null,
+    "timestamp": 1731025804592
+  },
+  {
+    "id": 17,
+    "fromUser": 5,
+    "toUser": 1,
+    "message": "hello, this is my presentation",
+    "image": null,
+    "timestamp": 1731026607374
+  },
+  {
+    "id": 18,
+    "fromUser": 5,
+    "toUser": 4,
+    "message": "hi, this is my presentation",
+    "image": null,
+    "timestamp": 1731026756628
+  },
+  {
+    "id": 19,
+    "fromUser": 5,
+    "toUser": 1,
+    "message": "hi, this is scrollable",
+    "image": null,
+    "timestamp": 1731026770606
+  },
+  {
+    "id": 20,
+    "fromUser": 5,
+    "toUser": 1,
+    "message": "test msg",
+    "image": null,
+    "timestamp": 1731180996327
+  },
+  {
+    "id": 21,
+    "fromUser": 5,
+    "toUser": 1,
+    "message": "test msg",
+    "image": null,
+    "timestamp": 1731181304533
+  },
+  {
+    "id": 22,
+    "fromUser": 5,
+    "toUser": 3,
+    "message": "test complete",
+    "image": null,
+    "timestamp": 1731181320420
+  },
+  {
+    "id": 23,
+    "fromUser": 5,
+    "toUser": 3,
+    "message": "test again",
+    "image": null,
+    "timestamp": 1731181368174
+  },
+  {
+    "id": 24,
+    "fromUser": 5,
+    "toUser": 3,
+    "message": "test test",
+    "image": null,
+    "timestamp": 1731182082111
+  },
+  {
+    "id": 25,
+    "fromUser": 5,
+    "toUser": 3,
+    "message": "test test",
+    "image": null,
+    "timestamp": 1731183409689
+  },
+  {
+    "id": 26,
+    "fromUser": 5,
+    "toUser": 3,
+    "message": "test api",
+    "image": null,
+    "timestamp": 1731184135682
+  },
+  {
+    "id": 27,
+    "fromUser": 5,
+    "toUser": 3,
+    "message": "test api",
+    "image": null,
+    "timestamp": 1731184276594
+  },
+  {
+    "id": 28,
+    "fromUser": 5,
+    "toUser": 3,
+    "message": "test api",
+    "image": null,
+    "timestamp": 1731184277446
+  },
+  {
+    "id": 29,
+    "fromUser": 5,
+    "toUser": 3,
+    "message": "test api",
+    "image": null,
+    "timestamp": 1731184362431
+  },
+  {
+    "id": 30,
+    "fromUser": 5,
+    "toUser": 3,
+    "message": "test api",
+    "image": null,
+    "timestamp": 1731184384404
+  },
+  {
+    "id": 31,
+    "fromUser": 5,
+    "toUser": 3,
+    "message": "test api",
+    "image": null,
+    "timestamp": 1731184397109
+  },
+  {
+    "id": 32,
+    "fromUser": 5,
+    "toUser": 3,
+    "message": "test api",
+    "image": null,
+    "timestamp": 1731184405009
+  },
+  {
+    "id": 33,
+    "fromUser": 5,
+    "toUser": 3,
+    "message": "test api",
+    "image": null,
+    "timestamp": 1731184456809
+  },
+  {
+    "id": 34,
+    "fromUser": 5,
+    "toUser": 3,
+    "message": "test api",
+    "image": null,
+    "timestamp": 1731185032778
+  },
+  {
+    "id": 35,
+    "fromUser": 5,
+    "toUser": 3,
+    "message": "test api",
+    "image": null,
+    "timestamp": 1731185036593
+  },
+  {
+    "id": 36,
+    "fromUser": 5,
+    "toUser": 3,
+    "message": "test api",
+    "image": null,
+    "timestamp": 1731185037750
+  },
+  {
+    "id": 37,
+    "fromUser": 5,
+    "toUser": 3,
+    "message": "test api",
+    "image": null,
+    "timestamp": 1731185421613
+  },
+  {
+    "id": 38,
+    "fromUser": 5,
+    "toUser": 3,
+    "message": "test api",
+    "image": null,
+    "timestamp": 1731185427034
+  },
+  {
+    "id": 39,
+    "fromUser": 5,
+    "toUser": 3,
+    "message": "test api",
+    "image": null,
+    "timestamp": 1731185428148
+  },
+  {
+    "id": 40,
+    "fromUser": 5,
+    "toUser": 3,
+    "message": "test api",
+    "image": null,
+    "timestamp": 1731185429233
+  },
+  {
+    "id": 41,
+    "fromUser": 5,
+    "toUser": 3,
+    "message": "test api",
+    "image": null,
+    "timestamp": 1731185452674
+  },
+  {
+    "id": 42,
+    "fromUser": 5,
+    "toUser": 3,
+    "message": "test api",
+    "image": null,
+    "timestamp": 1731185462402
+  },
+  {
+    "id": 43,
+    "fromUser": 5,
+    "toUser": 3,
+    "message": "test api",
+    "image": null,
+    "timestamp": 1731185463490
+  },
+  {
+    "id": 44,
+    "fromUser": 5,
+    "toUser": 3,
+    "message": "test api",
+    "image": null,
+    "timestamp": 1731185464400
+  },
+  {
+    "id": 45,
+    "fromUser": 5,
+    "toUser": 3,
+    "message": "test api",
+    "image": null,
+    "timestamp": 1731185465385
+  },
+  {
+    "id": 46,
+    "fromUser": 5,
+    "toUser": 3,
+    "message": "test api",
+    "image": null,
+    "timestamp": 1731185466381
+  },
+  {
+    "id": 47,
+    "fromUser": 5,
+    "toUser": 3,
+    "message": "test api",
+    "image": null,
+    "timestamp": 1731185467343
+  },
+  {
+    "id": 48,
+    "fromUser": 5,
+    "toUser": 3,
+    "message": "test api",
+    "image": null,
+    "timestamp": 1731185475359
+  },
+  {
+    "id": 49,
+    "fromUser": 5,
+    "toUser": 3,
+    "message": "test api",
+    "image": null,
+    "timestamp": 1731185838294
+  },
+  {
+    "id": 50,
+    "fromUser": 5,
+    "toUser": 3,
+    "message": "test api",
+    "image": null,
+    "timestamp": 1731186788640
+  },
+  {
+    "id": 51,
+    "fromUser": 5,
+    "toUser": 3,
+    "message": "test api",
+    "image": null,
+    "timestamp": 1731186871930
+  },
+  {
+    "id": 52,
+    "fromUser": 5,
+    "toUser": 1,
+    "message": "test",
+    "image": null,
+    "timestamp": 1731239785631
+  },
+  {
+    "id": 53,
+    "fromUser": 5,
+    "toUser": 2,
+    "message": "hi eliza",
+    "image": null,
+    "timestamp": 1731239793590
+  },
+  {
+    "id": 54,
+    "fromUser": 5,
+    "toUser": 1,
+    "message": "test123",
+    "image": null,
+    "timestamp": 1731399047878
+  },
+  {
+    "id": 55,
+    "fromUser": 5,
+    "toUser": 1,
+    "message": "test12345",
+    "image": null,
+    "timestamp": 1731399348838
+  },
+  {
+    "id": 56,
+    "fromUser": 5,
+    "toUser": 2,
+    "message": "Hi Eliza",
+    "image": null,
+    "timestamp": 1731400687308
+  },
+  {
+    "id": 57,
+    "fromUser": 5,
+    "toUser": 4,
+    "message": "Test message 123123",
+    "image": null,
+    "timestamp": 1731507200400
+  },
+  {
+    "id": 58,
+    "fromUser": 5,
+    "toUser": 2,
+    "message": "Hi Eliza",
+    "image": null,
+    "timestamp": 1731508812940
+  },
+  {
+    "id": 59,
+    "fromUser": 5,
+    "toUser": 2,
+    "message": "g",
+    "image": null,
+    "timestamp": 1731597271096
+  },
+  {
+    "id": 60,
+    "fromUser": 5,
+    "toUser": 2,
+    "message": "c",
+    "image": null,
+    "timestamp": 1731597279311
+  },
+  {
+    "id": 61,
+    "fromUser": 5,
+    "toUser": 2,
+    "message": "test",
+    "image": null,
+    "timestamp": 1731597301790
+  },
+  {
+    "id": 62,
+    "fromUser": 5,
+    "toUser": 1,
+    "message": "test",
+    "image": null,
+    "timestamp": 1731600007180
+  },
+  {
+    "id": 63,
+    "fromUser": 5,
+    "toUser": 1,
+    "message": "test2",
+    "image": null,
+    "timestamp": 1731600197837
+  },
+  {
+    "id": 64,
+    "fromUser": 5,
+    "toUser": 1,
+    "message": "test3",
+    "image": null,
+    "timestamp": 1731600220727
+  },
+  {
+    "id": 65,
+    "fromUser": 5,
+    "toUser": 2,
+    "message": "Test Message",
+    "image": null,
+    "timestamp": 1731639401340
+  },
+  {
+    "id": 66,
+    "fromUser": 5,
+    "toUser": 1,
+    "message": "test",
+    "image": null,
+    "timestamp": 1731644627277
+  },
+  {
+    "id": 67,
+    "fromUser": 5,
+    "toUser": 1,
+    "message": "t",
+    "image": null,
+    "timestamp": 1731644642340
+  },
+  {
+    "id": 68,
+    "fromUser": 5,
+    "toUser": 4,
+    "message": "testing",
+    "image": null,
+    "timestamp": 1731728485416
+  },
+  {
+    "id": 69,
+    "fromUser": 5,
+    "toUser": 4,
+    "message": "123",
+    "image": null,
+    "timestamp": 1731728539675
+  },
+  {
+    "id": 70,
+    "fromUser": 5,
+    "toUser": 1,
+    "message": "123",
+    "image": null,
+    "timestamp": 1731755069986
+  },
+  {
+    "id": 71,
+    "fromUser": 5,
+    "toUser": 1,
+    "message": "123",
+    "image": null,
+    "timestamp": 1731755152999
+  },
+  {
+    "id": 72,
+    "fromUser": 5,
+    "toUser": 4,
+    "message": "Testing testing",
+    "image": null,
+    "timestamp": 1731755617965
+  },
+  {
+    "id": 73,
+    "fromUser": 5,
+    "toUser": 2,
+    "message": "Testing text",
+    "image": null,
+    "timestamp": 1731766021395
+  },
+  {
+    "id": 74,
+    "fromUser": 5,
+    "toUser": 1,
+    "message": "testing text",
+    "image": null,
+    "timestamp": 1731766420266
+  },
+  {
+    "id": 75,
+    "fromUser": 5,
+    "toUser": 5,
+    "message": "test",
+    "image": null,
+    "timestamp": 1731769973959
+  },
+  {
+    "id": 76,
+    "fromUser": 5,
+    "toUser": 2,
+    "message": "testing123",
+    "image": null,
+    "timestamp": 1732000335731
+  },
+  {
+    "id": 77,
+    "fromUser": 5,
+    "toUser": 1,
+    "message": "fffffbfbf",
+    "image": null,
+    "timestamp": 1732198913441
+  },
+  {
+    "id": 78,
+    "fromUser": 5,
+    "toUser": 1,
+    "message": "bfdbff",
+    "image": null,
+    "timestamp": 1732199081219
+  },
+  {
+    "id": 79,
+    "fromUser": 5,
+    "toUser": 4,
+    "message": "testing",
+    "image": null,
+    "timestamp": 1732199242291
+  },
+  {
+    "id": 80,
+    "fromUser": 5,
+    "toUser": 3,
+    "message": "testing",
+    "image": null,
+    "timestamp": 1732199250284
+  },
+  {
+    "id": 81,
+    "fromUser": 5,
+    "toUser": 1,
+    "message": "testing data",
+    "image": null,
+    "timestamp": 1732302522147
+  },
+  {
+    "id": 82,
+    "fromUser": 5,
+    "toUser": 1,
+    "message": "testing data",
+    "image": null,
+    "timestamp": 1732303682320
+  },
+  {
+    "id": 83,
+    "fromUser": 5,
+    "toUser": 3,
+    "message": "testing123",
+    "image": null,
+    "timestamp": 1732303834446
+  },
+  {
+    "id": 84,
+    "fromUser": 5,
+    "toUser": 3,
+    "message": "testing 1234",
+    "image": null,
+    "timestamp": 1732329637348
+  },
+  {
+    "id": 85,
+    "fromUser": 5,
+    "toUser": 1,
+    "message": "testing data",
+    "image": null,
+    "timestamp": 1732329949343
+  },
+  {
+    "id": 86,
+    "fromUser": 5,
+    "toUser": 3,
+    "message": "testing1236677",
+    "image": null,
+    "timestamp": 1732330708409
+  },
+  {
+    "id": 87,
+    "fromUser": 5,
+    "toUser": 3,
+    "message": "rhdrhdre",
+    "image": null,
+    "timestamp": 1732330793382
+  },
+  {
+    "id": 88,
+    "fromUser": 5,
+    "toUser": 1,
+    "message": "ghggggg",
+    "image": null,
+    "timestamp": 1732332679323
+  },
+  {
+    "id": 89,
+    "fromUser": 5,
+    "toUser": 5,
+    "message": "jhdf",
+    "image": null,
+    "timestamp": 1732549560501
+  },
+  {
+    "id": 90,
+    "fromUser": 5,
+    "toUser": 5,
+    "message": "hi",
+    "image": null,
+    "timestamp": 1732584165948
+  },
+  {
+    "id": 91,
+    "fromUser": 5,
+    "toUser": 5,
+    "message": "hi",
+    "image": null,
+    "timestamp": 1732584274749
+  },
+  {
+    "id": 92,
+    "fromUser": 5,
+    "toUser": 5,
+    "message": "test",
+    "image": null,
+    "timestamp": 1732584344482
+  },
+  {
+    "id": 93,
+    "fromUser": 5,
+    "toUser": 5,
+    "message": "test",
+    "image": null,
+    "timestamp": 1732584376752
+  },
+  {
+    "id": 94,
+    "fromUser": 5,
+    "toUser": 5,
+    "message": "test",
+    "image": null,
+    "timestamp": 1732589376181
+  },
+  {
+    "id": 95,
+    "fromUser": 5,
+    "toUser": 1,
+    "message": "test",
+    "image": null,
+    "timestamp": 1732589538934
+  },
+  {
+    "id": 96,
+    "fromUser": 5,
+    "toUser": 1,
+    "message": "hello",
+    "image": null,
+    "timestamp": 1733123162460
+  },
+  {
+    "id": 97,
+    "fromUser": 5,
+    "toUser": 1,
+    "message": "test",
+    "image": null,
+    "timestamp": 1733124368890
+  },
+  {
+    "id": 98,
+    "fromUser": 5,
+    "toUser": 1,
+    "message": "hello, testing",
+    "image": null,
+    "timestamp": 1733124564333
+  },
+  {
+    "id": 99,
+    "fromUser": 5,
+    "toUser": 1,
+    "message": "hiii",
+    "image": null,
+    "timestamp": 1733124985597
+  },
+  {
+    "id": 100,
+    "fromUser": 5,
+    "toUser": 1,
+    "message": "new chat",
+    "image": null,
+    "timestamp": 1733124992647
+  },
+  {
+    "id": 101,
+    "fromUser": 5,
+    "toUser": 5,
+    "message": "new chat from harry potter",
+    "image": null,
+    "timestamp": 1733125414317
+  },
+  {
+    "id": 102,
+    "fromUser": 5,
+    "toUser": 1,
+    "message": "hi",
+    "image": null,
+    "timestamp": 1733130413018
+  },
+  {
+    "id": 103,
+    "fromUser": 5,
+    "toUser": 1,
+    "message": "test new",
+    "image": null,
+    "timestamp": 1733130513283
+  },
+  {
+    "id": 104,
+    "fromUser": 5,
+    "toUser": 5,
+    "message": "im harry",
+    "image": null,
+    "timestamp": 1733130522935
+  },
+  {
+    "id": 105,
+    "fromUser": 5,
+    "toUser": 1,
+    "message": "hello jonathan",
+    "image": null,
+    "timestamp": 1733135305922
+  },
+  {
+    "id": 106,
+    "fromUser": 5,
+    "toUser": 1,
+    "message": "test 2",
+    "image": null,
+    "timestamp": 1733135314981
+  },
+  {
+    "id": 107,
+    "fromUser": 5,
+    "toUser": 2,
+    "message": "elizabeth",
+    "image": null,
+    "timestamp": 1733135331548
+  },
+  {
+    "id": 108,
+    "fromUser": 5,
+    "toUser": 3,
+    "message": "hi",
+    "image": null,
+    "timestamp": 1733154236298
+  }
+]

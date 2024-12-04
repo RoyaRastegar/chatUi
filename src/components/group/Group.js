@@ -10,7 +10,6 @@ const Group = () => {
       .then((jsonData) => setGroups(jsonData))
       .catch((error) => console.error('Error fetching data:', error));
   }, []);
-  console.log(groups);
   return (
     <div className='group'>
       <div className='length'>
