@@ -33,7 +33,7 @@ const Meet = ({ user, me, getDateUserChat, groups }) => {
       .then((response) => response.json())
       .then((jsonData) => setAllChats(jsonData))
       .catch((error) => console.error('Error fetching data:', error));
-  }, []);
+  }, [message]);
 
   if (chatuser.length > 0) {
     getDateUserChat(chatuser[chatuser.length - 1].timestamp);
@@ -65,7 +65,7 @@ const Meet = ({ user, me, getDateUserChat, groups }) => {
       });
       const result = await response.json();
       if (result.status === 'success') {
-        setAllChats((prevChats) => [
+        setChatUser((prevChats) => [
           ...prevChats,
           {
             id: result.id || Math.random(),
