@@ -1,12 +1,12 @@
 import './members.css';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import MemberCart from '../membercart/MemberCart';
 import { IoMdSearch } from 'react-icons/io';
 import Meet from '../meet/Meet';
-const Members = () => {
+const Members = ({ memberData, me, groups }) => {
   const [searchInput, setSearchInput] = useState('');
-  const [memberData, setMembarData] = useState([]);
   const [searchResult, setSearchResult] = useState('');
+  const [dateUserChat, setDateUserChat] = useState(null);
   const [userSelected, setUserSelected] = useState({
     username: '',
     id: '',
@@ -16,7 +16,15 @@ const Members = () => {
     position: '',
     profileImage: '',
   });
-
+  const date = new Date(dateUserChat);
+  const formattedDate = date.toLocaleString('en-US', {
+    month: 'short',
+    day: 'numeric',
+    year: 'numeric',
+    hour: 'numeric',
+    minute: 'numeric',
+    hour12: true,
+  });
   const searchItems = (name) => {
     if (!name.trim()) {
       setSearchResult([]);
@@ -36,12 +44,9 @@ const Members = () => {
     const userId = memberData.filter((item) => item.id === user.id);
     return setUserSelected(userId[0]);
   };
-  useEffect(() => {
-    fetch('/members.json')
-      .then((response) => response.json())
-      .then((jsonData) => setMembarData(jsonData))
-      .catch((error) => console.error('Error fetching data:', error));
-  }, []);
+  function getDateUserChat(date) {
+    setDateUserChat(date);
+  }
   return (
     <div className='members'>
       <div onClick={() => searchItems(searchInput)} className='search'>
@@ -56,7 +61,12 @@ const Members = () => {
       </div>
       <div className='body'>
         {(searchResult.length > 0 ? searchResult : memberData).map((user) => (
-          <MemberCart key={user.id} user={user} getUser={getUserId} />
+          <MemberCart
+            key={user.id}
+            user={user}
+            getUser={getUserId}
+            formattedDate={formattedDate}
+          />
         ))}
       </div>
       <div className='buttons'>
@@ -76,7 +86,13 @@ const Members = () => {
           <button className='schedulebutton'>Schedule</button>
         </div>
       </div>
-      <Meet user={userSelected} />
+
+      <Meet
+        user={userSelected}
+        me={me}
+        getDateUserChat={getDateUserChat}
+        groups={groups}
+      />
     </div>
   );
 };

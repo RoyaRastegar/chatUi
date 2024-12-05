@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  width: -webkit-fill-available;
 }
 .groupname {
   font-size: small;
@@ -21,5 +22,6 @@
   border-radius: 50%;
   font-size: smaller;
   border: transparent;
-  background-color: #f8f8ff;
+  background-color: #ebe6e6;
+  padding: 5px;
 }

@@ -1,5 +1,5 @@
 import './membercart.css';
-const MemberCart = ({ user, getUser }) => {
+const MemberCart = ({ user, getUser, formattedDate }) => {
   function userSelected() {
     return getUser(user);
   }
@@ -14,7 +14,12 @@ const MemberCart = ({ user, getUser }) => {
           height={30}
         />
       </div>
-      <div className='userinfo'>{user.username}</div>
+      <div className='userinfo'>
+        <span style={{ marginRight: 'auto' }}>{user.username}</span>
+        <span style={{ fontSize: 'smaller', color: 'darkgray' }}>
+          {formattedDate}
+        </span>
+      </div>
     </div>
   );
 };

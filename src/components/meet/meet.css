@@ -1,8 +1,8 @@
 .chat {
   width: 1000px;
-  height: 600px;
+  height: 620px;
   position: fixed;
-  top: 80px;
+  top: 60px;
   left: 400px;
   box-shadow: 2px 2px 10px #888888;
   display: flex;
@@ -33,7 +33,7 @@
 .info {
   display: flex;
   flex-direction: column;
-  row-gap: 10px;
+  row-gap: 5px;
   padding-top: 10px;
   margin-bottom: 10px;
 }
@@ -69,6 +69,7 @@
 .two {
   background-color: red;
   color: white;
+  border: transparent;
 }
 .infouser {
   width: 20%;
@@ -139,17 +140,72 @@
   outline: none;
 }
 .icons {
-  display: flex; /* برای چینش آیتم‌ها به صورت افقی */
-  align-items: center; /* برای ترازبندی عمودی آیتم‌ها */
-  gap: 8px; /* فاصله بین آیتم‌ها */
+  display: flex;
+  align-items: center;
+  gap: 8px;
   padding: 10px;
 }
 .item {
-  display: flex; /* برای ترازبندی محتواهای داخلی */
+  display: flex;
   justify-content: center;
   align-items: center;
-  width: 32px; /* عرض برای هر آیکن */
-  height: 32px; /* ارتفاع برای هر آیکن */
-  background-color: transparent; /* پس‌زمینه اولیه */
-  border-radius: 50%; /* برای آیکن‌های دایره‌ای */
+  width: 32px;
+  height: 32px;
+  background-color: transparent;
+  border-radius: 50%;
+}
+.showChat {
+  width: 750px;
+  height: 490px;
+  overflow: auto;
+}
+.rightchat {
+  display: flex;
+  padding-top: 10px;
+}
+.leftchat {
+  text-align: left;
+  padding-top: 10px;
+  display: flex;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.eachmessage {
+  display: flex;
+  padding-right: 20px;
+  display: flex;
+  padding-top: 10px;
+}
+.msg {
+  padding-top: 10px;
+}
+.msgdiv {
+  width: 300px;
+  height: 60px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  /* overflow: auto; */
+  word-wrap: break-word;
+  box-shadow: 2px 2px 10px #888888;
+  margin-top: 10px;
+  border-radius: 0 10px 10px 10px;
+}
+.msgdivme {
+  width: 300px;
+  height: 60px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  /* overflow: auto; */
+  word-wrap: break-word;
+  box-shadow: 2px 2px 10px #888888;
+  margin-top: 10px;
+  margin-left: auto;
+  background-color: #8a2be2;
+  color: #ffffff;
+  border-radius: 10px 0 10px 10px;
+}
+.form {
+  display: flex;
+  width: 750px;
+  justify-content: space-between;
 }

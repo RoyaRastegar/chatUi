@@ -1,0 +1,10 @@
+.img {
+  border-radius: 50px;
+}
+.profile {
+  position: fixed;
+  bottom: 40px;
+  left: 10px;
+  display: flex;
+  flex-direction: column;
+}
