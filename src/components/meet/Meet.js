@@ -17,16 +17,15 @@ const Meet = ({ user, me, getDateUserChat, groups }) => {
   const [allChats, setAllChats] = useState([]);
   const [chatuser, setChatUser] = useState([]);
   const [message, setMessage] = useState('');
-  // const [searchMessage, setSearchMessage] = useState('');
-  // const [searchResult, setSearchResult] = useState([]);
+
   const userId = user.id;
 
   useEffect(() => {
-    fetch(`http://18.143.79.95/api/chatSystem/chatByUserId/${userId}`)
+    fetch(`http://18.143.79.95/api/chatSystem/chatByUserId/${user.id}`)
       .then((response) => response.json())
       .then((jsonData) => setChatUser(jsonData))
       .catch((error) => console.error('Error fetching data:', error));
-  }, [userId]);
+  }, [user.id]);
 
   useEffect(() => {
     fetch('http://18.143.79.95/api/chatSystem/chat/list')
@@ -34,7 +33,7 @@ const Meet = ({ user, me, getDateUserChat, groups }) => {
       .then((jsonData) => setAllChats(jsonData))
       .catch((error) => console.error('Error fetching data:', error));
   }, [message]);
-
+  // for getting last message time,i used callback function
   if (chatuser.length > 0) {
     getDateUserChat(chatuser[chatuser.length - 1].timestamp);
   } else {

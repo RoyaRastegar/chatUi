@@ -17,3 +17,12 @@
   display: flex;
   flex-direction: column;
 }
+
+@media (max-width: 768px) {
+  .userinfo {
+    display: none;
+  }
+  .cart {
+    justify-content: end;
+  }
+}

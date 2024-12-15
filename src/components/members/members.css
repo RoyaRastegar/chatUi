@@ -35,8 +35,6 @@
   top: 15px;
 }
 .body {
-  flex: 8;
-  text-align: end;
   width: 100%;
 }
 .buttons {
@@ -60,4 +58,29 @@
   height: 30px;
   border-radius: 5px;
   border: transparent;
+}
+@media (max-width: 768px) {
+  .schedulebutton,
+  .meetbutton,
+  .buttons.searchicon,
+  .serachinput,
+  .search {
+    display: none;
+  }
+  .members {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #888888;
+    align-items: center;
+    width: 50px;
+    height: 250px;
+    position: fixed;
+    left: 100px;
+    top: 60px;
+  }
+  .body {
+    width: 100%;
+    justify-content: center;
+  }
 }
