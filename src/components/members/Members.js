@@ -4,9 +4,9 @@ import MemberCart from '../membercart/MemberCart';
 import { IoMdSearch } from 'react-icons/io';
 import Meet from '../meet/Meet';
 const Members = ({ memberData, me, groups }) => {
-  const [searchInput, setSearchInput] = useState('');
-  const [searchResult, setSearchResult] = useState('');
-  const [dateUserChat, setDateUserChat] = useState(null);
+  const [searchInput, setSearchInput] = useState(''); //for holding search input value
+  const [searchResult, setSearchResult] = useState(''); //for holding values after searching
+  const [dateUserChat, setDateUserChat] = useState(null); //we want to need last message time and show it inside membercart for each person
   const [userSelected, setUserSelected] = useState({
     username: '',
     id: '',
@@ -16,6 +16,7 @@ const Members = ({ memberData, me, groups }) => {
     position: '',
     profileImage: '',
   });
+  // conver timestamp to localtime
   const date = new Date(dateUserChat);
   const formattedDate = date.toLocaleString('en-US', {
     month: 'short',
@@ -25,6 +26,7 @@ const Members = ({ memberData, me, groups }) => {
     minute: 'numeric',
     hour12: true,
   });
+  // for searching member by name
   const searchItems = (name) => {
     if (!name.trim()) {
       setSearchResult([]);
@@ -35,18 +37,23 @@ const Members = ({ memberData, me, groups }) => {
       setSearchResult(result);
     }
   };
+  // get input value to hole inside searchinpt and pass it as parameter to searchitem method
   const handleSearchChange = (e) => {
     const value = e.target.value;
     setSearchInput(value);
     searchItems(value);
   };
+  // we need data from membercart to member(child to parent)
   const getUserId = (user) => {
     const userId = memberData.filter((item) => item.id === user.id);
     return setUserSelected(userId[0]);
   };
+  // get last massage date
   function getDateUserChat(date) {
     setDateUserChat(date);
   }
+  console.log('member');
+
   return (
     <div className='members'>
       <div onClick={() => searchItems(searchInput)} className='search'>
