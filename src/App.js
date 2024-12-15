@@ -3,7 +3,7 @@ import Members from './components/members/Members';
 import Profile from './components/profile/Profile';
 import SidBar from './components/sidbar/SidBar';
 import { useEffect, useState } from 'react';
-
+import './App.css';
 function App() {
   const [groups, setGroups] = useState([]);
   const [memberData, setMembarData] = useState([]);
@@ -22,12 +22,12 @@ function App() {
   }, []);
 
   return (
-    <>
+    <div className='app'>
       <SidBar />
       <Members memberData={memberData} me={me} groups={groups} />
       <Group groups={groups} />
       <Profile me={me} />
-    </>
+    </div>
   );
 }
 
